@@ -1,0 +1,224 @@
+#magicSeaweedSurfReport {
+	text-align:left;
+	font-size:20px;
+	width:100%;
+	position:relative;
+	background:white;
+	display:table-cell;
+	color:black;
+}
+#magicSeaweedSurfReport h1 {
+	position:relative;
+	font-size:25px;
+	width:50%;
+	margin:0;
+	text-align:center;
+	float:left;
+	text-overflow:ellipsis;
+	top:50px;
+}
+#magicSeaweedSurfReport #issue{
+	width:100%;
+	min-width:100px;
+	float:right;
+	top:0;
+	position:relative;
+}
+#magicSeaweedSurfReport #issue a{
+	width:20%;
+	min-width:100px;
+	float:right;
+	position:relative;
+}
+#magicSeaweedSurfReport #issue a img{
+	float:right;
+	width:100%;
+	min-width:100px;
+	position:relative;
+}
+
+#magicSeaweedSurfReport #issueTime{
+	min-width:100px;
+	float:right;
+	font-size:.5em;
+	text-align:right;
+	clear:both;
+}
+
+#magicSeaweedSurfReport .upperContainer{
+	display:inline-block;
+	font-size:1em;
+	/*height:100%;*/
+	width:100%;
+	/*background-color:lightseagreen;*/
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	right bottom,
+	color-stop(0.2, #EFDD6F),
+	color-stop(1, #FFFFFF)
+);
+background-image: -o-linear-gradient(right, #EFDD6F 20%, #FFFFFF 100%);
+background-image: -moz-linear-gradient(right, #EFDD6F 20%, #FFFFFF 100%);
+background-image: -webkit-linear-gradient(right, #EFDD6F 20%, #FFFFFF 100%);
+background-image: -ms-linear-gradient(right, #EFDD6F 20%, #FFFFFF 100%);
+background-image: linear-gradient(to right, #EFDD6F 20%, #FFFFFF 100%);
+
+}
+#magicSeaweedSurfReport .upperContainer .graphTitle{
+	padding-bottom: .5em;
+	padding-top: .5em;
+	float: left;
+	opacity: 1;
+	font-size: .75em;
+	width: 40%;
+	text-overflow: clip;
+	overflow: hidden;
+	font-weight: bold;
+}
+#magicSeaweedSurfReport .upperContainer	.colorKeyTitle{
+	position:relative;
+	font-size:.5em;
+	text-align:center;
+	margin-top:0;
+	width:50%;
+	height:.5em;
+	float:right;
+
+}
+#magicSeaweedSurfReport .upperContainer .colorKeyLabel{
+	position:relative;
+	margin-top:.5em;
+	width:50%;
+	height:.5em;
+	float:right;
+}
+
+#magicSeaweedSurfReport .upperContainer .colorKeyLabel text:first-child{
+	bottom:.5em;
+	font-size:.5em;
+	position:relative;
+	text-align:right;
+	width:0%;
+	float:left;
+	
+	/*adjustment misaligns label with scale,good for small graph data readability,	bad for overall asthetic.*/
+	right:5px;
+}
+
+#magicSeaweedSurfReport .upperContainer .colorKeyLabel text{
+	bottom:.5em;
+	font-size:.5em;
+	position:relative;
+	width:20%;
+	text-align:right;
+	float:left;
+}
+
+#magicSeaweedSurfReport .upperContainer .colorKey{
+	position:relative;
+	border:none;
+	width:50%;
+	height:.5em;
+	float:right;
+}
+#magicSeaweedSurfReport .upperContainer .colorKeyBox{
+	position:relative;
+	border:none;
+	width:20%;
+	height:.5em;
+	float:left;
+}
+
+#magicSeaweedSurfReport .surfGraph{
+	height:5em;
+	width:100%;
+	float:right;
+	display:inline;
+	text-wrap:none;
+	overflow:visible;
+	position:relative;
+	border: 1px solid #000;
+}
+
+#magicSeaweedSurfReport .graphContainer{
+	width:100%;
+	height:4em;
+}
+#magicSeaweedSurfReport .graphContainer .bar{
+	position:absolute;
+	bottom:0;
+}
+#magicSeaweedSurfReport .graphContainer .bar .barColor{
+	opacity:.9;
+	border:1px solid transparent;
+	width:90%;
+	height:100%;
+	margin:auto;
+	position:relative;
+}
+#magicSeaweedSurfReport .graphContainer .bar .barLabel{
+	display:block;
+	text-wrap:no;
+	margin:0;
+	left:0;
+	height:0;
+	text-align:center;
+	position:absolute;
+	top:-1em;
+	font-size:.5em;
+}
+#magicSeaweedSurfReport .graphContainer .bar .arrow{
+	margin:0;
+	left:50%;
+	height:0;
+	text-align:center;
+	position:absolute;
+	top:-2em;
+	height:1em;
+	width:auto;
+}
+
+#magicSeaweedSurfReport .graphContainer .bar .overlayBar{
+	opacity:.5;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+#magicSeaweedSurfReport .surfGraph .gridLine{
+	opacity:.3;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	border:1px dashed darkblue;
+}
+#magicSeaweedSurfReport .surfGraph .gridLabel{
+	position:absolute;
+	opacity:1;
+	right:0;
+	font-size:.5em;
+	bottom:0;
+}
+#magicSeaweedSurfReport  .timesContainer{
+	width:100%;
+	height:.5em;
+	float:left;
+}
+#magicSeaweedSurfReport  .timesContainer .times{
+	display:block;
+	font-size:.5em;
+	float:left;
+	height:.5em;
+}
+#magicSeaweedSurfReport  .daysContainer{
+	width:100%;
+	height:.5em;
+	margin-bottom:.5em;
+	float:left;
+}
+#magicSeaweedSurfReport  .daysContainer .days{
+	display:block;
+	font-size:.5em;
+	float:left;
+	height:.5em;
+}
